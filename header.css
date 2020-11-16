@@ -70,11 +70,9 @@ nav > h1{
 /* Footer Section*/
 
 footer{
-	position: absolute;
   	background-color: #243238;
   	right: 0;
   	left: 0;
-  	bottom: 0;
   	font-size: 14px;
   	font-weight: 400;
   	font-style: normal;
