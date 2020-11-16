@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+
+}
+
+figure{
+        position: absolute;
+        left: 0;
+}
