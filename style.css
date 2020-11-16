@@ -3,15 +3,17 @@ section {
     flex-direction: column;
 }
 
-article{
-     display: flex;
-    flex-direction: row;
+article {
+    display: flex;
+    flex-direction: column;
 }
 
-h2{
-    order: -1;
-}
-
-img{
+img {
     width: 200px;
+
+}
+
+figure{
+        position: absolute;
+        left: 0;
 }
