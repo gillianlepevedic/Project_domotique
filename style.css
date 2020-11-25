@@ -1,66 +1,158 @@
 @font-face {
-    font-family: 'Mont','SF Pro';
-    font-weight: normal;
-    font-style: normal;
+font-family: "SFPRO";
+src: url("fonts/SFProDisplay-Regular.woff") format("woff");
+}
+/*
+-Palette de couleur-
+Bleu 1 : #2b78e4
+#4d62a6
+footer: #243238
+font color #373F41 #737B7D
+*/
+html {
+	font-family: SFPRO;
+  	scroll-behavior: smooth;
 }
 
-section > h1{
-    background-color: #4D62A6;
-    text-align: center;
-    color: white;
-    margin: 10px 20px 10px 20px;
-    padding: 20px 20px 20px 20px;
+.banniere {
+	background: url(back.png) no-repeat center center fixed;
+	width: 100%;
+	height: 70vh;
+  	text-align: center;
+  	display: flex;
+  	padding: 75px 0 50px 0;
 }
 
-h2 {
-    margin: 0 0 0 50px;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F3F6FA;
+}
+		
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
 }
 
-section + arcticle {
-    display: flex;
+h3{
+	font-weight: 600;
 }
 
-section > figure {
-    float : left;
+main {
+	margin: 0;
+	padding: 0;
+	background-color: white;
 }
 
-section > h2{
-    flex-grow: 1;
-    text-align: center;
-    background-color: #4D62A6;
-    padding: 10px 10px 10px 10px;
-    margin: 25px 150px 5px 350px;
-    border-radius: 20px;
-}
-
-section > h2 > a{
-    text-decoration: none;
-}
-
-a:link{
-    color: white;
-}
-
-a:hover{
-    color: #32A2AC;
-}
-
-section > p{
-    margin: 5px 50px 5px 0;
+section {
+	display: inline-flex;
+	padding: 100px 80px;
 }
 
 article{
-    margin: 0 25px 0 25px;
+	margin: auto;
+	margin-left: 50px;
+
 }
 
-@media screen and (min-width: 960px)
-    {
-        section > figure{
-            display: block;
-        }
+article > h2{
+	color: #2b78e4;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
 }
 
+article > h4{
+	color: #2b78e4;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
+}
 
+article > h3{
+	color:#373F41;
+	font-size: 40px;
+	font-weight: normal;
+	margin-top: 15px; 
 
+}
 
+article > a {
+	display: inline-block;
+  	background: none;
+  	color: #2b78e4;
+  	font-size: 20px;
+  	padding: 12px 36px;
+  	font-weight: 400;
+  	border-radius: 6px;
+  	margin: 50px 30px 0 0;
+  	border: 2px solid #2b78e4;
+  	transition: all 0.3s ease;
+  	text-decoration: none;
+  	outline: 0;
+}
 
+article > a:hover{
+	color: #fff;
+    background: #2b78e4;
+}
+
+article > p {
+	color: #737B7D;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.color1{
+	background-color: #fff;
+}
+
+.color2{
+	background-color: #F3F6FA;
+}
+
+.banniere-inside a{
+	display: inline-block;
+  	background: none;
+  	color: #2b78e4;
+  	font-size: 20px;
+  	padding: 12px 36px;
+  	font-weight: 400;
+  	border-radius: 6px;
+  	margin-top: 100px;
+  	border: 2px solid #2b78e4;
+  	transition: all 0.3s ease;
+  	text-decoration: none;
+  	outline: 0;
+}
+
+.banniere-inside a:hover{
+    color: #fff;
+    background: #2b78e4;
+}
+
+.banniere-inside{
+	margin:auto;
+	text-align: center;
+}
+
+.banniere-inside h1{
+	margin-bottom: 30px;
+	color: #373F41;
+	font-weight: 500;
+	font-size: 40px;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.banniere-inside h2{
+	color: #737B7D;
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+figure{
+	margin: 0;
+}
